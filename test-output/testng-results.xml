@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-13T13:31:32 IST" name="Default suite" finished-at="2024-11-13T13:32:24 IST" duration-ms="51151">
+    <groups>
+    </groups>
+    <test started-at="2024-11-13T13:31:32 IST" name="Default test" finished-at="2024-11-13T13:32:24 IST" duration-ms="51151">
+      <class name="testpackage.ParabankTest">
+        <test-method is-config="true" signature="bfrtest()[pri:0, instance:testpackage.ParabankTest@f78a47e]" started-at="2024-11-13T13:31:32 IST" name="bfrtest" finished-at="2024-11-13T13:32:21 IST" duration-ms="48961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bfrtest -->
+        <test-method signature="testUserRegistration()[pri:1, instance:testpackage.ParabankTest@f78a47e]" started-at="2024-11-13T13:32:21 IST" name="testUserRegistration" finished-at="2024-11-13T13:32:23 IST" duration-ms="1907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserRegistration -->
+        <test-method signature="captureScreenshotAfterRegistration()[pri:2, instance:testpackage.ParabankTest@f78a47e]" started-at="2024-11-13T13:32:23 IST" name="captureScreenshotAfterRegistration" finished-at="2024-11-13T13:32:24 IST" depends-on-methods="testpackage.ParabankTest.testUserRegistration" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- captureScreenshotAfterRegistration -->
+      </class> <!-- testpackage.ParabankTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
